@@ -4,6 +4,10 @@ namespace HelloWorld
 {
     class Program
     {
+        /*
+           программа, которая спрашивает у пользователя имя
+           и выводит его на консоль
+       */
         static void Main(string[] args)
         {
             Console.Write("Введите свое имя: ");
