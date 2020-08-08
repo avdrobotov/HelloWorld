@@ -10,14 +10,15 @@ namespace HelloWorld
        */
         static void Main(string[] args)
         {
-            string name = "Tom";  // определяем переменную и инициализируем ее
+            string name = "Tom";
+            int age = 33;
+            bool isEmployed = false;
+            double weight = 78.65;
 
-            Console.WriteLine(name);    // Tom
-
-            name = "Bob";       // меняем значение переменной
-            Console.WriteLine(name);    // Bob
-
-            Console.Read();
+            Console.WriteLine($"Имя: {name}");
+            Console.WriteLine($"Возраст: {age}");
+            Console.WriteLine($"Вес: {weight}");
+            Console.WriteLine($"Работает: {isEmployed}");
         }
     }
 }
